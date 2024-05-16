@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 body{
     box-sizing: border-box;
     margin: 0;
@@ -104,6 +106,7 @@ a {
     border: 1.5px solid rgb(225, 224, 224);
     border-radius: 0.2rem;
     margin-top: 3rem;
+    outline: none;
 }
 
 .btn{
@@ -130,4 +133,51 @@ a {
     font-family: 'Roboto';
     font-weight: 450;
     color: rgb(130, 129, 129);
+}
+
+/* Discover Section */
+
+
+.discover-wrapper{
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+
+.discover-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dis-img{
+    width: 60%;
+}
+
+.discover-description{
+    width: 60%;
+}
+
+.dis-about{
+    color: #FF8800;
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+}
+
+.discover-heading{
+    font-size: 4rem;
+    font-family: 'Lora';
+    width: 60%;
+}
+
+.discover-p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    width: 75%;
+    font-weight: 450;
+    line-height: 1.6;
 }
