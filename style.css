@@ -319,3 +319,95 @@ a {
     margin: 0;
 }
 
+/* Testimonial */
+
+
+.testimonials{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.user-name{
+    font-size: 1.7rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 0;
+}
+
+.user-job{
+    font-size: 1.2rem;
+    margin: 0.2rem 0;
+    margin-bottom: 2rem;
+    font-family: 'Roboto';
+    color: gray;
+}
+
+.comment{
+    font-size: 1.8rem;
+    font-family: 'Quicksand';
+    color: rgb(148, 146, 146);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #F3F7F8;
+    width: 100%;
+    height: 30rem;
+}
+
+.footer-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    padding-top: 4rem;
+}
+
+.item1 p{
+    font-family: 'Quicksand';
+    color: rgb(21, 20, 20);
+    width: 80%;
+    line-height: 1.8;
+}
+
+.item2 h1{
+    font-family: 'Lora';
+}
+
+.item2 p {
+    font-family: 'Quicksand';
+    line-height: 1.5;
+}
+
+.item4 h1{
+    font-family: 'Lora';
+    font-size: 1.8rem;
+}
+
+.item4 form input{  
+    border: none;
+    border-radius: 0.3rem;
+    padding: 1rem 3rem;
+    padding-left: 1rem;
+    padding-right: 5rem;
+}
+
+.item4 form button{  
+    border: none;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+    background-color: #FF8800;
+    color: whitesmoke;
+    font-weight: 450;
+}
+
+
+
+.provider{
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Quicksand';
+}
