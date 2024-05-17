@@ -133,6 +133,7 @@ a {
     font-family: 'Roboto';
     font-weight: 450;
     color: rgb(130, 129, 129);
+    margin-bottom: 2rem;
 }
 
 /* Discover Section */
@@ -144,21 +145,14 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
-
 }
 
-
-.discover-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.dis-img{
-    width: 60%;
+.discover-wrapper img{
+    width: 40%;
 }
 
 .discover-description{
+    margin: 5rem 0;
     width: 60%;
 }
 
@@ -172,6 +166,9 @@ a {
     font-size: 4rem;
     font-family: 'Lora';
     width: 60%;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .discover-p {
@@ -181,3 +178,144 @@ a {
     font-weight: 450;
     line-height: 1.6;
 }
+
+.dis-btn{
+    margin: 2rem 0;
+}
+
+/* Food Gallery */
+
+
+.food-gallery{
+    margin: 6rem 0;
+    font-family: 'Roboto';
+}
+
+.food-order{
+    color: #FF8800;
+}
+
+.gal-items{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.gallery-heading{
+    font-size: 4rem;
+    font-family: 'Lora';
+    margin: 0;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+.gallery-links{
+    display: inline;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid gray;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.gallery-links .margin-1 {
+    margin: 0 2.5rem;
+}
+
+.gallery-links .margin-2 {
+    margin: 0 2rem;
+}
+
+.gallery-links .margin-3 {
+    margin: 0 2rem;
+}
+
+.gallery-links .margin-4 {
+    margin: 0 2rem;
+}
+
+
+
+.active-link{
+    border-bottom: 2.3px solid #FF8800;
+    padding-bottom: 1rem;
+    margin-left: 0rem;
+    padding-right: 2rem;
+    text-align: center;
+    padding-left: 2rem;
+}
+
+.gallery-links a{
+    color: black;
+}
+
+
+.cuisin-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0 5rem;
+}
+
+.cuisin-gallery img {
+    border-radius: 0.5rem;
+}
+
+
+/* Working Hours */
+
+.opening-hours{
+    background-color: #FCFCFC;
+}
+
+.hours-items{
+    text-align: center;
+    /* background-color: #FCFCFC; */
+    padding: 5rem 0;
+}
+
+
+.hours-span{
+    font-family: 'Roboto';
+}
+
+.hours-img{
+    width: 4%;
+}
+
+.call-now{
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    margin-bottom: 0.8rem;
+}
+
+.phone-no{
+    font-size: 2.8rem;
+    font-family: 'Lora';
+    color: #FF8800;
+    margin: 0;
+}
+
+.working-days{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.weekdays p {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.weekdays h3 {
+    font-size: 2rem;
+    font-family: 'Lora';
+    margin: 0;
+}
+
